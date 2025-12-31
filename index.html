@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijay | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="./public/favicon.svg">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Vijay Ahirwar</h1>
+      <h2>Creative Web Developer</h2>
+      <p>I build interactive and elegant web experiences.</p>
+
+      <div class="hero-buttons">
+        <button class="btn primary" id="viewWorkBtn">View Work</button>
+        <button class="btn secondary" id="contactBtn">Contact</button>
+      </div>
+    </div>
+
+    <div class="hero-socials">
+      <a href="https://github.com/vijay7307" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/vijay-ahirwar-317618312" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      <a href="mailto:vijayahirwar73900@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+
+
+    <div class="hero-visual">
+      <img src="./public/profile.jpg" alt="Vijay Profile" />
+      <div class="hero-orb"></div>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <div class="about-bg">ABOUT</div>
+    <p>
+      I focus on building clean, user-friendly and animated
+      web applications using modern technologies.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-card">HTML | CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">React</div>
+      <div class="skill-card">Flutter</div>
+      <div class="skill-card">Firebase</div>
+      <div class="skill-card">Git & GitHub</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <div class="project-img">
+        <img src="./public/ChatGPT Image Dec 31, 2025, 05_37_14 PM.png" alt="" srcset="">
+      </div>
+      <div class="project-info">
+        <h3>Attendance App</h3>
+        <p>BLE based smart attendance system.</p>
+        <button class="btn primary view-project-btn1">View Project</button>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-img">
+        <img src="./public/swabhiman.png" alt="" srcset="">
+      </div>
+      <div class="project-info">
+        <h3>Swabhiman Thali</h3>
+        <p>React based Thali Count Website.</p>
+        <button class="btn primary view-project-btn2" onclick="">View Project</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Let’s build something meaningful.</h2>
+    <p class="contact-sub">
+      Have an idea, project, or just want to say hi?
+    </p>
+
+    <form class="contact-form" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+
+    <p id="successMsg" style="display:none; margin-top:20px;">
+      Thanks! I’ll get back to you soon 🏇.
+    </p>
+
+  </section>
+
+  <footer>
+    Crafted with code & curiosity by Vijay
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

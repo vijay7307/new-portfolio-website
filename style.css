@@ -384,8 +384,9 @@ footer {
   }
 
   .hero-visual img {
-    width: 220px;
-    height: 300px;
+    width: inherit;
+    height: inherit;
+    padding: 13px;
   }
 
   /* SOCIAL ICONS */

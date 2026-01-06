@@ -241,6 +241,7 @@ body {
 
 .project-img img{
   width: inherit;
+  height: inherit;
   overflow: hidden;
   border-radius: inherit;
 }
@@ -418,7 +419,7 @@ footer {
 
   .project-img {
     width: 100%;
-    height: inherit;
+    height: 200px;
   }
 
   /* CONTACT */
